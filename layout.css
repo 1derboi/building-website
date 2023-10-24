@@ -1,0 +1,141 @@
+.header-btn-flex {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding-right: 24px;
+}
+
+.gunpla-logo {
+    width: 350px;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 0.5em solid rgb(181, 181, 181);
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+}
+
+.header-btns {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  color: #3b3b3b;
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.header-btns:hover {
+  border-color: #dadce0;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+  color: #202124;
+}
+
+.header-btns:focus {
+  border-color: #bd2a2a;
+  outline: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 2px outset rgb(165, 165, 165);
+    margin: auto;
+}
+
+.container img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.text-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1000px;
+    margin-inline: auto;
+    background-color: #ffffff;
+}
+
+.box-text {
+    font-size: 14;
+    padding: 2rem;
+    margin-inline: auto;
+    margin-top: 1.5em;
+    border-radius: 4px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#box-one {
+    background-color: rgb(124, 124, 124);
+    color: white;
+}
+
+#box-two {
+    background-color: rgb(38, 38, 54);
+    color: white
+}
+
+#box-three {
+    border: 1px solid black;
+}
+
+#box-four {
+    background-color: #762b2b;
+    color: white;
+}
+
+#box-five {
+    background-color: rgb(93, 93, 93);
+}
+
+.main-text-grid {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 30% 70%;
+    width: 1000px;
+    margin-inline: auto;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.main-text {
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1.5px solid black;
+    padding: 20px;
+}
+
+.headline {
+    text-align: left;
+    padding: 30px;
+    border: hidden;
+
+}
+
+.styled-box {
+    background-color:#000000;
+    color: white
+
+}
