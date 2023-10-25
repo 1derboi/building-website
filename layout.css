@@ -306,3 +306,64 @@ button[type=submit] {
     height: 20px;
     width: 100px;
 }
+
+
+/* anime css */
+
+
+.anime-list-grid {
+    display: grid;
+    grid-template-columns: 20% 1fr auto;
+}
+
+.series-list {
+    list-style: none;
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+li.series-name-grid {
+    padding-bottom: 5px;
+    list-style: none;
+}
+
+.list-container {
+    object-fit: cover;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+
+}
+
+.episode-img-list {
+    padding-left: 20px;
+    overflow: hidden;
+    object-fit: cover;
+    width: auto
+}
+
+.episode-img {
+    overflow: hidden;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.summary {
+    padding-left: 20px;
+    height: 160px;
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.summary-grid{
+    padding-top: 5px;
+}
+
+.ep-title {
+    padding-left: 20px;
+}
