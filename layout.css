@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding-right: 28px;
-    width: 500px;
+    width: 700px;
     height: auto;
     text-align: center;
 }
@@ -30,7 +30,7 @@ header {
 }
 
 .button {
-    width: 80px;
+    width: fit-content;
     height: auto;
     text-align: center;
 }
@@ -216,4 +216,13 @@ footer {
 
 div#box-six.box-text {
     padding: 0;
+}
+
+h2.news-title {
+    margin: auto;
+    width: 1000px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
 }
