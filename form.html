@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="layout.css">
+    </head>
+    <body>
+        <header>
+            <img src="img/Gunpla_Logo.png" alt="gunpla logo" class="gunpla-logo">
+            <div class="header-btn-flex">
+                <div class="button"><a href="#top" class="header-btns" id="home-btn"> Home</a></div>
+                <div class="button"><a href="#news-section" class="header-btns" id="news-btn"> News</a></div>
+                <div class="button"><a href="" class="header-btns" id="gunpla-btn"> Gunpla</a></div>
+                <div class="button"><a href="" class="header-btns" id="anime-btn"> Anime</a></div>
+                <div class="button"><a href="" class="header-btns" id="article-btn"> Misc</a></div>
+                <div class="button"><a href="" class="header-btns" id="sign-log-btn"> Login / Signup</a></div>
+            </div>
+        </header>
+
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+            <legend id="legend">Sign Up</legend>
+
+            <div class="justify-grid">
+                <label for="firstName">First name: </label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+
+            <div class="justify-grid">
+                <label for="lastName">Last name: </label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+
+            <div class="justify-grid">
+                <label for="email">Email: </label>
+                <input type="email" placeholder="username@email.com" id="email" name="email_address">
+            </div>
+
+            <div class="justify-grid">
+                <label for="pw">Password: </label>
+                <input type="password" placeholder="8 characters minimum" minlength="8" id="pw" name="pw">
+            </div>
+
+            <div class="justify-grid">
+                <label for="pw">Verify Password: </label>
+                <input type="password" placeholder="8 characters minimum" minlength="8" id="pw" name="pw">
+            </div>
+
+            <div class="justify-grid">
+                <label for="date">Date of Birth: </label>
+                <input type="date" id="date" name="date">
+            </div>
+
+            <div class="justify-grid">
+                <label id="comment" for="comments">Comments: </label>
+                <textarea placeholder="Leave a comment about your interests in the Gundam Universe!" rows="8" cols="50" id="comments" name="comments"></textarea>
+            </div>
+
+            <div class="div-btns">
+                <input type="checkbox" id="signup" name="signup" value="Signup">
+                <label for="signup">Sign up <br>for news letter</label><br>
+                <input type="checkbox" id="terms" name="terms" value="Terms">
+                <label for="terms"> Agree to <br>terms and conditions</label>
+            </div>
+
+            <div class="div-btns">
+                <button type="submit">Submit</button>
+            </div>
+
+            </fieldset>
+        </form>
+    </body>
+</html>
